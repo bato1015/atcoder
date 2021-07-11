@@ -3,7 +3,7 @@
 int main(){
   //std::string  c(1,0);
   int c=0;
-  std::string N(20001,0);
+  std::string N(20000,0);
   std::cin>>N;
   //c=str[2]-'0';
  //std::cout<<c<<std::endl;

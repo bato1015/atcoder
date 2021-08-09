@@ -1,10 +1,8 @@
 #include<iostream>
 #include<vector>
+//g++ 0807.cpp -std=c++17 -Wall --pedantic-errors
 //https://atcoder.jp/contests/abc213/tasks/abc213_a
 class test{
-    test(){  //コンストラクタ
-        vec1.assign(8,0);
-    }
     public:
         void set1(int index,int set_num){
             vec1[index]=set_num;
@@ -16,8 +14,6 @@ class test{
         std::vector<int> vec1;
 };
 int main(){
-    test t;
-
 
     return 0;
 }
